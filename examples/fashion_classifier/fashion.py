@@ -4,7 +4,7 @@ import sys
 
 sys.path.append("../..")
 
-from framework import *
+from dimag import *
 
 # Label index to label name relation
 fashion_mnist_labels = {
