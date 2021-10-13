@@ -25,6 +25,7 @@ There are 4 Loss functions in the framework.
   
 ## Misc
 Moreover, there are functions that are required and some additional functions for convenience.
+- Accuracy
 - Layer_Dense
 - Layer_Dropout
 - Layer_Input
@@ -43,10 +44,10 @@ Other functions such as common loss, load_mnist_data serve as requirements for o
   - Unix/macOS:<br>
     `python3 -m pip install -r requirements.txt`<br>
   - Windows:<br>
-    `py -m pip install -r requiremments.txt`
+    `py -m pip install -r requirements.txt`
     
-- Add the cloned folder to path before using it in your .py file.<br>
-  `sys.path.append('<path to folder>')`
+- Add the cloned folder to path at the beginning of your .py file.<br>
+  `sys.path.append('<path to cloned repo>')`
 
 - Import necessary objects as per your requirement in your python file. For eg:<br>
   `from dimag import Layer_Dense, Activation_ReLU, Activation_Softmax, np, Activation_Softmax, Model, Loss_CategoricalCrossentropy, Optimizer_Adam, Accuracy_Categorical`
@@ -71,4 +72,3 @@ If you have any confusions on how to contribute, please check out this awesome a
   
 
 ## Thanks for using Dimag. Don't forget to star this repository. :smiling_face_with_three_hearts: 	
-
