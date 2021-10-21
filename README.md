@@ -23,7 +23,7 @@ There are 4 Loss functions in the framework.
 - Mean Squared Error
 - Mean Absolute Error
 
-## Accuracu functions 
+## Accuracy functions 
 - Accuracy Regressional
 - Accuracy Categorical
   
