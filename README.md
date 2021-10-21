@@ -22,10 +22,13 @@ There are 4 Loss functions in the framework.
 - Binary Crossentropy
 - Mean Squared Error
 - Mean Absolute Error
+
+## Accuracu functions 
+- Accuracy Regressional
+- Accuracy Categorical
   
 ## Misc
 Moreover, there are functions that are required and some additional functions for convenience.
-- Accuracy
 - Layer_Dense
 - Layer_Dropout
 - Layer_Input
